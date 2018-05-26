@@ -148,6 +148,13 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+img.minimal {
+  margin: 0px;
+  border: 0px;
+  padding: 3px;
+  vertical-align: top;
+}
+
 p img {
   display: inline;
   margin: 0;
@@ -237,6 +244,13 @@ table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
+ }
+
+ table.minimal,
+ table.minimal td {
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
  }
 
 th {
